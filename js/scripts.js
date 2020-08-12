@@ -1,11 +1,12 @@
 $(document).ready(function() {
   $("#formOne").submit(function(event) {
+    event.preventDefault();
     const userinput = $("input#userinput").val();
-    $(".userinput").text(userinput);
+    const userInputUpper = userinput.toUpperCase();
+    $(".userinput").text(userInputUpper); 
 
     $("#return").show();
-     
-    event.preventDefault();
-
   });
 });
+
+/*   $(".userinput").text(userinput).toUpperCase(); */

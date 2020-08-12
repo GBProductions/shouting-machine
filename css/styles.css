@@ -11,11 +11,11 @@
 #return {
   display: none;
 }
-
+/*
 #return .userinput {
   text-transform:uppercase;
 }
-
+*/
 .btn {
   background-color:  rgb(191, 185, 185);
   border-style: dotted;
