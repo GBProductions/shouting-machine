@@ -1,13 +1,24 @@
 .container {
   font-family: Arial, Helvetica, sans-serif;
   font-size: larger;
-}
+} 
 
 .container .form-group {
   text-align: center;
-  font-weight: bold;
+  font-size: x-large;
 }
 
 #return {
   display: none;
+}
+
+#return .userinput {
+  text-transform:uppercase;
+}
+
+.btn {
+  background-color:  rgb(191, 185, 185);
+  border-style: dotted;
+  border-color: black;
+
 }
